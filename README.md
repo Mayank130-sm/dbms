@@ -2,7 +2,7 @@
 
 A comprehensive database-driven web application for managing organ donation, hospital coordination, and patient transplant matching.
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 Project/
@@ -22,7 +22,7 @@ Project/
 └── README.md
 ```
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - **MySQL 8.0+** running on `localhost:3306`
@@ -33,10 +33,6 @@ Open MySQL Workbench or command line and run:
 ```bash
 mysql -u root -p < sql/task3_schema_and_data.sql
 mysql -u root -p < sql/task5_triggers.sql
-```
-
-### Step 2: Install & Run the Server
-```bash
 cd server
 npm install
 npm start
@@ -66,8 +62,3 @@ Navigate to [http://localhost:3000](http://localhost:3000) in your browser.
 - **Task 5**: Triggers in `sql/task5_triggers.sql` + Full Node.js web UI
 - **Task 6**: `sql/task6_transactions.sql` — 3 scenarios (commit, rollback, conflict)
 
-## 🔧 MySQL Credentials (configured in `server/db.js`)
-- Host: `localhost`
-- User: `root`
-- Password: `navrunsingh`
-- Database: `OrganTransplantDB`
